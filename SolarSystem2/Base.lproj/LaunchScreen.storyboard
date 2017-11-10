@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cloud-Light.otf">
+            <string>Cloud-Light</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -16,12 +25,67 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGm-Y9-wm7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="solar system" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lk-xd-XMc">
+                                        <rect key="frame" x="36" y="63" width="302" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="302" id="Lrt-Vw-psj"/>
+                                            <constraint firstAttribute="height" constant="54" id="kdS-8u-0Za"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Cloud-Light" family="Cloud" pointSize="15"/>
+                                        <color key="textColor" red="0.023529411760000001" green="0.023529411760000001" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benjamin Lee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSF-fS-ZFw">
+                                        <rect key="frame" x="36" y="549" width="302" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="302" id="Kzc-MV-SAv"/>
+                                            <constraint firstAttribute="height" constant="54" id="n07-jj-qv3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Cloud-Light" family="Cloud" pointSize="15"/>
+                                        <color key="textColor" red="0.023529411760000001" green="0.023529411760000001" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SPOOTNIK2" translatesAutoresizingMaskIntoConstraints="NO" id="osY-re-BZQ">
+                                        <rect key="frame" x="146" y="290" width="83" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="83" id="8Mh-6c-aEN"/>
+                                            <constraint firstAttribute="height" constant="87" id="iIX-nR-MXp"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="osY-re-BZQ" firstAttribute="centerX" secondItem="ZGm-Y9-wm7" secondAttribute="centerX" id="62Z-4w-7tV"/>
+                                    <constraint firstItem="9Lk-xd-XMc" firstAttribute="leading" secondItem="ZGm-Y9-wm7" secondAttribute="leading" constant="36" id="7EF-f3-mGX"/>
+                                    <constraint firstAttribute="width" constant="375" id="DH0-Tq-bbV"/>
+                                    <constraint firstAttribute="height" constant="667" id="FWr-Jb-GJa"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Lk-xd-XMc" secondAttribute="trailing" constant="37" id="SpM-Rx-g5I"/>
+                                    <constraint firstAttribute="bottom" secondItem="JSF-fS-ZFw" secondAttribute="bottom" constant="64" id="Ztg-5Q-gx2"/>
+                                    <constraint firstItem="osY-re-BZQ" firstAttribute="centerY" secondItem="ZGm-Y9-wm7" secondAttribute="centerY" id="ePQ-LN-KBZ"/>
+                                    <constraint firstItem="9Lk-xd-XMc" firstAttribute="top" secondItem="ZGm-Y9-wm7" secondAttribute="top" constant="63" id="hj2-El-Uby"/>
+                                    <constraint firstItem="JSF-fS-ZFw" firstAttribute="centerX" secondItem="ZGm-Y9-wm7" secondAttribute="centerX" id="hsy-QE-4mb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ZGm-Y9-wm7" secondAttribute="bottom" id="EML-1C-Iht"/>
+                            <constraint firstItem="ZGm-Y9-wm7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IrX-kW-8Uk"/>
+                            <constraint firstAttribute="trailing" secondItem="ZGm-Y9-wm7" secondAttribute="trailing" id="TcG-yQ-Jbg"/>
+                            <constraint firstItem="ZGm-Y9-wm7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VeL-u1-jTI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SPOOTNIK2" width="310" height="310"/>
+    </resources>
 </document>

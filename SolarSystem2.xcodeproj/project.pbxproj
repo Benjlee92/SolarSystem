@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56E53C31EC2304100E8EFD0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E53C21EC2304100E8EFD0 /* File.swift */; };
+		B56E53CD1EC236B300E8EFD0 /* planet.csv in Resources */ = {isa = PBXBuildFile; fileRef = B56E53CC1EC236B300E8EFD0 /* planet.csv */; };
+		B5757CBA1EC0C4A5007FF0B8 /* Interstellar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5757CB91EC0C4A5007FF0B8 /* Interstellar.mp3 */; };
+		B5757CBD1EC0C805007FF0B8 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5757CBC1EC0C805007FF0B8 /* Planet.swift */; };
+		B5757CC01EC0C9C8007FF0B8 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5757CBF1EC0C9C8007FF0B8 /* PlanetCell.swift */; };
+		B5757CC41EC0D446007FF0B8 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5757CC31EC0D446007FF0B8 /* csv.swift */; };
+		B5757CC81EC0D912007FF0B8 /* Ailerons-Typeface.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5757CC71EC0D912007FF0B8 /* Ailerons-Typeface.otf */; };
+		B5757CCC1EC0DDF8007FF0B8 /* PlanetDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5757CCB1EC0DDF8007FF0B8 /* PlanetDetailVC.swift */; };
+		B5757CCF1EC0F3CF007FF0B8 /* Cloud-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5757CCD1EC0F3CF007FF0B8 /* Cloud-Bold.otf */; };
+		B5757CD01EC0F3CF007FF0B8 /* Cloud-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5757CCE1EC0F3CF007FF0B8 /* Cloud-Light.otf */; };
 		B5ABE3011EC0BA6200D20B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABE3001EC0BA6200D20B2E /* AppDelegate.swift */; };
 		B5ABE3031EC0BA6200D20B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABE3021EC0BA6200D20B2E /* ViewController.swift */; };
 		B5ABE3061EC0BA6200D20B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ABE3041EC0BA6200D20B2E /* Main.storyboard */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56E53C21EC2304100E8EFD0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B56E53CC1EC236B300E8EFD0 /* planet.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = planet.csv; sourceTree = "<group>"; };
+		B5757CB91EC0C4A5007FF0B8 /* Interstellar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Interstellar.mp3; sourceTree = "<group>"; };
+		B5757CBC1EC0C805007FF0B8 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		B5757CBF1EC0C9C8007FF0B8 /* PlanetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
+		B5757CC31EC0D446007FF0B8 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		B5757CC71EC0D912007FF0B8 /* Ailerons-Typeface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ailerons-Typeface.otf"; sourceTree = "<group>"; };
+		B5757CCB1EC0DDF8007FF0B8 /* PlanetDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailVC.swift; sourceTree = "<group>"; };
+		B5757CCD1EC0F3CF007FF0B8 /* Cloud-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cloud-Bold.otf"; sourceTree = "<group>"; };
+		B5757CCE1EC0F3CF007FF0B8 /* Cloud-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cloud-Light.otf"; sourceTree = "<group>"; };
 		B5ABE2FD1EC0BA6200D20B2E /* SolarSystem2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ABE3001EC0BA6200D20B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5ABE3021EC0BA6200D20B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +57,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5757CB81EC0C494007FF0B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5757CCD1EC0F3CF007FF0B8 /* Cloud-Bold.otf */,
+				B5757CCE1EC0F3CF007FF0B8 /* Cloud-Light.otf */,
+				B56E53C21EC2304100E8EFD0 /* File.swift */,
+				B5757CC71EC0D912007FF0B8 /* Ailerons-Typeface.otf */,
+				B5757CB91EC0C4A5007FF0B8 /* Interstellar.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B5757CBE1EC0C9B5007FF0B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5757CBF1EC0C9C8007FF0B8 /* PlanetCell.swift */,
+				B5757CBC1EC0C805007FF0B8 /* Planet.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5757CC21EC0D433007FF0B8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B5757CC31EC0D446007FF0B8 /* csv.swift */,
+				B56E53CC1EC236B300E8EFD0 /* planet.csv */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B5757CC91EC0DD89007FF0B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5ABE3041EC0BA6200D20B2E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5757CCA1EC0DD96007FF0B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5ABE3021EC0BA6200D20B2E /* ViewController.swift */,
+				B5757CCB1EC0DDF8007FF0B8 /* PlanetDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		B5ABE2F41EC0BA6200D20B2E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +123,12 @@
 		B5ABE2FF1EC0BA6200D20B2E /* SolarSystem2 */ = {
 			isa = PBXGroup;
 			children = (
+				B5757CB81EC0C494007FF0B8 /* Resources */,
+				B5757CC21EC0D433007FF0B8 /* Util */,
+				B5757CBE1EC0C9B5007FF0B8 /* Model */,
+				B5757CC91EC0DD89007FF0B8 /* View */,
+				B5757CCA1EC0DD96007FF0B8 /* Controller */,
 				B5ABE3001EC0BA6200D20B2E /* AppDelegate.swift */,
-				B5ABE3021EC0BA6200D20B2E /* ViewController.swift */,
-				B5ABE3041EC0BA6200D20B2E /* Main.storyboard */,
 				B5ABE30A1EC0BA6300D20B2E /* Assets.xcassets */,
 				B5ABE30C1EC0BA6300D20B2E /* LaunchScreen.storyboard */,
 				B5ABE30F1EC0BA6300D20B2E /* Info.plist */,
@@ -99,6 +169,7 @@
 				TargetAttributes = {
 					B5ABE2FC1EC0BA6200D20B2E = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +197,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56E53CD1EC236B300E8EFD0 /* planet.csv in Resources */,
 				B5ABE30E1EC0BA6300D20B2E /* LaunchScreen.storyboard in Resources */,
+				B5757CC81EC0D912007FF0B8 /* Ailerons-Typeface.otf in Resources */,
+				B5757CD01EC0F3CF007FF0B8 /* Cloud-Light.otf in Resources */,
+				B5757CCF1EC0F3CF007FF0B8 /* Cloud-Bold.otf in Resources */,
 				B5ABE30B1EC0BA6300D20B2E /* Assets.xcassets in Resources */,
 				B5ABE3061EC0BA6200D20B2E /* Main.storyboard in Resources */,
+				B5757CBA1EC0C4A5007FF0B8 /* Interstellar.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5757CCC1EC0DDF8007FF0B8 /* PlanetDetailVC.swift in Sources */,
+				B5757CC41EC0D446007FF0B8 /* csv.swift in Sources */,
 				B5ABE3091EC0BA6300D20B2E /* SolarSystem2.xcdatamodeld in Sources */,
+				B5757CC01EC0C9C8007FF0B8 /* PlanetCell.swift in Sources */,
 				B5ABE3031EC0BA6200D20B2E /* ViewController.swift in Sources */,
+				B56E53C31EC2304100E8EFD0 /* File.swift in Sources */,
 				B5ABE3011EC0BA6200D20B2E /* AppDelegate.swift in Sources */,
+				B5757CBD1EC0C805007FF0B8 /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +382,7 @@
 				B5ABE3141EC0BA6300D20B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
